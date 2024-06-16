@@ -18,7 +18,7 @@ public class MoreMapMarkers : Mod, IGlobalSettings<MMMGlobalSettings>
         ModHooks.GetPlayerIntHook += ReturnMoreMarkesForOurCustomOnes;
         ModHooks.SetPlayerIntHook += SaveLessMarkesBecauseOurCustomOnes;
     }
-    
+
     private int ReturnMoreMarkesForOurCustomOnes(string name, int orig)
     {
         if (name == "spareMarkers_b")
@@ -93,7 +93,7 @@ public class MoreMapMarkers : Mod, IGlobalSettings<MMMGlobalSettings>
         self.mapMarkersWhite = listMarkersWhite.ToArray();
         self.mapMarkersYellow = listMarkersYellow.ToArray();
     }
-    
+
     public static MMMGlobalSettings GlobalSettings { get; protected set; } = new MMMGlobalSettings();
     public void OnLoadGlobal(MMMGlobalSettings s) => GlobalSettings = s;
     public MMMGlobalSettings OnSaveGlobal() => GlobalSettings;
