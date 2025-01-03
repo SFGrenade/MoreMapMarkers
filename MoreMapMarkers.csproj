@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-    <Product>More Map Markers</Product>
+    <Product>MoreMapMarkers</Product>
     <RootNamespace>MoreMapMarkers</RootNamespace>
-    <AssemblyName>More Map Markers</AssemblyName>
-    <AssemblyTitle>More Map Markers</AssemblyTitle>
+    <AssemblyName>MoreMapMarkers</AssemblyName>
+    <AssemblyTitle>MoreMapMarkers</AssemblyTitle>
     <Description>A Hollow Knight Mod</Description>
     <Copyright>Copyright © SFGrenade 2025</Copyright>
-    <AssemblyVersion>1.5.1.0</AssemblyVersion>
+    <AssemblyVersion>1.5.1.1</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <ImplicitUsings>false</ImplicitUsings>
     <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
